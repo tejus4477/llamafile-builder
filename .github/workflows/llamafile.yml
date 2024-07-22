@@ -4,11 +4,11 @@ on:
     workflow_dispatch:
         inputs:
             model_url:
-                description: "URL to the model to be used"
+                description: "https://huggingface.co/defog/sqlcoder-7b-2"
                 required: true
 
             huggingface_repo:
-                description: "HuggingFace repo to upload to. Example: rabil/llamafile. It is assumed that you have added your HuggingFace token with write access to your action secrets."
+                description: "tejus4477/sqltw"
                 required: true
 
 
